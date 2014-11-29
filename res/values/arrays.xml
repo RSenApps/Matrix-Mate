@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+    <string-array name="operations_square" tools:ignore="MissingTranslation">
+        <item>+</item>
+        <item>-</item>
+        <item>@string/multiply</item>
+        <item>@string/transpose</item>
+        <item>@string/solve</item>
+        <item>@string/determinant</item>
+        <item>@string/inverse</item>
+        <item>@string/eigenvalues</item>
+        <item>@string/eigenvectors</item>
+        <item>@string/rank</item>
+        <item>@string/trace</item>
+        <item>@string/L_from_LU</item>
+        <item>@string/U_from_LU</item>
+        <item>@string/cholesky</item>
+        <item>@string/Q_from_QR</item>
+        <item>@string/R_from_QR</item>
+        <item tools:ignore="MissingTranslation">@string/H_from_QR</item>
+        <item>@string/singular</item>
+  
+   </string-array>
+   <string-array name="operations_rect" tools:ignore="MissingTranslation">
+       <item>+</item>
+       <item>-</item>
+       <item>@string/multiply</item>
+       <item>@string/transpose</item>
+       <item>@string/rank</item>
+       <item>@string/Q_from_QR</item>
+        <item tools:ignore="MissingTranslation">@string/R_from_QR</item>
+        <item>@string/H_from_QR</item>
+        <item>@string/singular</item>
+    </string-array>
+    <string-array name="operations_two_matrix" tools:ignore="MissingTranslation">
+        <item>"\\+"</item>
+        <item>"\\-"</item>
+        <item>@string/multiply</item>
+        <item>@string/solve_star</item>
+        </string-array>
+</resources>

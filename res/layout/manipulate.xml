@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/manipulateLayout"
+        android:layout_height="match_parent">
+		<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="45dp"
+            android:text="@string/chooseMatrix"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageButton
+            android:id="@+id/matrix1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_action_emptymatrix" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/matrix1"
+            android:layout_marginTop="45dp"
+            android:text="@string/choose_operation"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/operation"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignLeft="@+id/matrix1"
+            android:layout_below="@+id/matrix1"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_action_operations"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/operation"
+            android:layout_marginTop="45dp"
+            android:text="@string/choose_matrix"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/matrix2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignLeft="@+id/operation"
+            android:layout_below="@+id/operation"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_action_emptymatrix"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/resultButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignRight="@+id/matrix1"
+            android:layout_below="@+id/matrix2"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/save_as_matrix" />
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/resultButtons"
+            android:layout_alignRight="@+id/resultButtons"
+            android:layout_below="@+id/resultButtons"
+            android:layout_marginTop="15dp" >
+
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </HorizontalScrollView>
+        </RelativeLayout>
+    </ScrollView>

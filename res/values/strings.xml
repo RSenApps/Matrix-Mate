@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation">
+    <string name="app_name">Matrix Mate</string>
+    <string name="action_edit" tools:ignore="MissingTranslation,MissingTranslation">Edit</string>
+    <string name="dialog_cancel" tools:ignore="MissingTranslation">Cancel</string><string name="dialog_set_number">Set</string>
+    
+    <string name="chooseMatrix">Choose Matrix</string>
+    <string name="EULA" tools:ignore="MissingTranslation">END-USER LICENSE AGREEMENT FOR MATRIX MATE IMPORTANT PLEASE READ THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT CAREFULLY BEFORE CONTINUING WITH THIS PROGRAM INSTALL: RSen End-User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and the developer  for the developer\’s software product(s) identified above which may include associated software components, media, printed materials, and "online" or electronic documentation ("Matrix Mate"). By installing, copying, or otherwise using the Matrix Mate app, you agree to be bound by the terms of this EULA. This license agreement represents the entire agreement concerning the program between you and the developer, (referred to as "licenser"), and it supersedes any prior proposal, representation, or understanding between the parties. If you do not agree to the terms of this EULA, do not install or use Matrix Mate.
+Matrix Mate is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. Matrix Mate is licensed, not sold.
+1. GRANT OF LICENSE. 
+Matrix Mate is licensed as follows: 
+(a) Installation and Use.
+The developer grants you the right to install and use copies of Matrix Mate on your Android device running a validly licensed copy of the operating system for which Matrix Mate was designed.
+(b) Backup Copies.
+You may also make copies of Matrix Mate as may be necessary for backup and archival purposes.
+2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS.
+(a) Maintenance of Copyright Notices.
+You must not remove or alter any copyright notices on any and all copies of Matrix Mate.
+(b) Distribution.
+You may not distribute registered copies of Matrix Mate to third parties. 
+© Prohibition on Reverse Engineering, Decompilation, and Disassembly.
+You may not reverse engineer, decompile, or disassemble Matrix Mate, except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation. 
+(d) Rental.
+You may not rent, lease, or lend Matrix Mate.
+(e) Support Services.
+The developer may provide you with support services related to Matrix Mate ("Support Services"). Any supplemental software code provided to you as part of the Support Services shall be considered part of Matrix Mate and subject to the terms and conditions of this EULA. 
+(f) Compliance with Applicable Laws.
+You must comply with all applicable laws regarding use of Matrix Mate.
+(g) Google Analytics
+You give the right to anonymously track and report the user\'s activity inside of the Application though the Google Analytics and you agree to the Google Analytics Terms of Service.
+3. TERMINATION 
+Without prejudice to any other rights, the developer may terminate this EULA if you fail to comply with the terms and conditions of this EULA. In such event, you must destroy all copies of Matrix Mate in your possession.
+4. COPYRIGHT
+All title, including but not limited to copyrights, in and to Matrix Mate and any copies thereof are owned by the developer or its suppliers. All title and intellectual property rights in and to the content which may be accessed through use of the Matrix Mate is the property of the respective content owner and may be protected by applicable copyright or other intellectual property laws and treaties. This EULA grants you no rights to use such content. All rights not expressly granted are reserved by the developer.
+5. NO WARRANTIES
+The developer expressly disclaims any warranty for Matrix Mate. Matrix Mate is provided \’As Is\’ without any express or implied warranty of any kind, including but not limited to any warranties of merchantability, noninfringement, or fitness of a particular purpose. The developer does not warrant or assume responsibility for the accuracy or completeness of any information, text, graphics, links or other items contained within Matrix Mate. The developer makes no warranties respecting any harm that may be caused by the transmission of a computer virus, worm, time bomb, logic bomb, or other such computer program. The developer further expressly disclaims any warranty or representation to Authorized Users or to any third party.
+6. LIMITATION OF LIABILITY
+In no event shall the developer be liable for any damages (including, without limitation, lost profits, business interruption, or lost information) rising out of \’Authorized Users\’ use of or inability to use Matrix Mate, even if the developer has been advised of the possibility of such damages. In no event will the developer be liable for loss of data or for indirect, special, incidental, consequential (including lost profit), or other damages based in contract, tort or otherwise. The developer shall have no liability with respect to the content of Matrix Mate or any part thereof, including but not limited to errors or omissions contained therein, libel, infringements of rights of publicity, privacy, trademark rights, business interruption, personal injury, loss of privacy, moral rights or the disclosure of confidential information.
+
+</string>
+    <string name="set_size">Set Size</string>
+    
+    <string name="save_and_manipulate">Save and Manipulate</string>
+    <string name="save_and_create_another">Save and Create Another</string>
+    <string name="reset">Reset</string>
+    <string name="choose_operation">Choose Operation</string>
+    <string name="choose_matrix">Choose Matrix</string>
+    <string name="done">Done</string>
+    <string name="save_as_matrix">Save As Matrix</string>
+    <string name="feedback">Feedback</string>
+    <string name="name_optional_" tools:ignore="MissingTranslation">Name (optional): </string>
+    <string name="return_email_optional_">Return Email (optional): </string>
+    <string name="description_">Description: </string>
+    
+    <string name="send" tools:ignore="MissingTranslation">Send</string>
+    <string name="edit_matrix">Edit Matrix…</string>
+    
+    <string name="later">Later</string>
+    <string name="save_as">Save as…</string>
+    <string name="no_valid_matrices">No Valid Matrices</string>
+    <string name="create_matrix_first">Create a Matrix first?</string>
+    <string name="yes" tools:ignore="MissingTranslation">Yes</string>
+    <string name="no">No</string>
+    <string name="welcome">Welcome to Matrix Mate!</string>
+  
+    <string name="to_start_please_create_matrix" tools:ignore="MissingTranslation,MissingTranslation">To start please create a matrix…</string>
+    <string name="editing_matrix">Editing Matrix </string>
+    <string name="like_matrix_mate">Like Matrix Mate</string>
+    <string name="save_changes">Save Changes?</string>
+    <string name="accept">Accept</string>
+    <string name="quit">Quit</string>
+    <string name="ok">OK</string>
+    <string name="edit_help_message">1. Change matrix size with plus buttons or set size button \n2.Edit numbers, switch with next button on keyboard\n3.Press &quot;Save and Manipulate&quot;</string>
+    <string name="help">Help</string>
+    <string name="comment">Comment</string>
+    
+  <string name="support">Support</string>
+    <string name="edit_a_matrix" tools:ignore="MissingTranslation,MissingTranslation">Edit a matrix…</string>
+    <string name="empty_par" tools:ignore="MissingTranslation">(empty)</string>
+   <string name="multiply" tools:ignore="MissingTranslation,MissingTranslation">Multiply</string>
+    <string name="transpose" tools:ignore="MissingTranslation">Transpose</string>
+    <string name="solve" tools:ignore="MissingTranslation">Solve m1*x = m2</string>
+    <string name="determinant">Determinant</string>
+    <string name="inverse">Inverse</string>
+    <string name="eigenvalues">Eigenvalues</string>
+    <string name="eigenvectors">Eigenvectors</string>
+    <string name="rank">Rank</string>
+    <string name="trace">Trace</string>
+    <string name="L_from_LU">L from LU</string>
+    <string name="U_from_LU">U from LU</string>
+    <string name="solve_star">Solve m1\\*x = m2</string>
+	<string name="complex_input">Complex Input</string>    
+    <string name="complex_enable">You can now input functions as text!</string>
+    <string name="cholesky">Cholesky Decomposition</string>
+    <string name="Q_from_QR">Q from QR</string>
+    <string name="R_from_QR">R from QR</string>
+    <string name="H_from_QR">H from QR</string>
+    <string name="singular">Singular values</string>
+    <string name="complex_parse_warning">Warning: invalid entries were turned into 0s</string>
+    <string name="show_extra_controls">Show extra controls</string>
+</resources>

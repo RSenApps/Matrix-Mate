@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/editLayout"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+		  <Button
+		        android:id="@+id/setSize"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textAppearance="?android:attr/textAppearanceSmall"
+		        android:text="@string/set_size" />		  <CheckBox
+		        android:id="@+id/complexInput"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		       android:textAppearance="@android:style/TextAppearance.Small"
+		        android:text="@string/complex_input" />
+		  <CheckBox
+		        android:id="@+id/showExtraControls"
+		        android:layout_width="wrap_content"
+		        android:visibility="gone"
+		        android:layout_height="wrap_content"
+		       android:textAppearance="@android:style/TextAppearance.Small"
+		        android:text="@string/show_extra_controls" />	</LinearLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <HorizontalScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/e1T1"
+                        android:layout_height="wrap_content"
+                        android:minEms="2"
+                        android:maxEms="5"
+                        android:inputType="numberDecimal|numberSigned" >
+
+                    </EditText>
+
+                    <ImageButton
+                        android:id="@+id/addColumn"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@null"
+                        android:src="@drawable/ic_action_add" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/addRow"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@null"
+                        android:src="@drawable/ic_action_add" />
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/manipulate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_weight="1"
+            android:text="@string/save_and_manipulate" />
+
+        <Button
+            android:id="@+id/create"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_weight="1"
+            android:text="@string/save_and_create_another" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="0dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/reset" />
+    </LinearLayout>
+
+   
+
+</LinearLayout>
